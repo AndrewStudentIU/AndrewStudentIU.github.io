@@ -1,0 +1,72 @@
+#Reto1 Linea
+cant = int(input("Cuantos pasos quieres que de la tortuga?"))
+linea = ""
+
+for i in range(cant):
+    if i == cant-1:
+        linea= linea + "→"
+    else:
+        linea= linea + "-"
+    i=i+1
+
+print(linea)
+
+# Reto2 Bajando
+cant = int(input("Cuantos pasos quieres que la tortuga baje?"))
+
+for i in range(cant):
+    if i == cant-1:
+        print("↓")
+    else:
+        print("|")
+    i=i+1
+
+#Reto3 Girar
+cant = int(input("Cuantos pasos quieres que de la tortuga?"))
+cant2 = int(input("Cuantos pasos quieres que la tortuga baje?"))
+linea = ""
+lineaBajada = ""
+
+for i in range(cant):
+    if i == cant-1:
+        linea= linea + "→"
+        lineaBajada = lineaBajada + " "
+    else:
+        linea= linea + "-"
+        lineaBajada = lineaBajada + " "
+    i=i+1
+
+print(linea)
+
+for i in range(cant2):
+    if i == cant2-1:
+        print(lineaBajada + "↓")
+    else:
+        print(lineaBajada + "|")
+    i=i+1
+
+#Reto4 Funciones
+cant = 2
+cant2 = 16
+lineaBajada = " " * cant
+
+def avanzar(cant):
+    linea = ""
+    for i in range(cant):
+        if i == cant-1:
+            linea= linea + "→"
+        else:
+            linea= linea + "-"
+        i=i+1
+    print(linea)
+
+def bajar(cant2):
+    for i in range(cant2):
+        if i == cant2-1:
+            print(lineaBajada + "↓")
+        else:
+            print(lineaBajada + "|")
+            i=i+1
+
+avanzar(cant)
+bajar(cant2)
