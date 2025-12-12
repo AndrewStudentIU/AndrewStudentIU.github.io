@@ -15,3 +15,9 @@ Ejemplo de codigo con Python
 
 Reflexion
   Comprender estos temas es muy importante porque nos ayudan a entender cómo funciona un computador y cómo podemos comunicarnos con él para indicarle qué hacer. Saber qué es el hardware, el software, los lenguajes y las variables nos permite ver cómo todo está conectado. Ya habiendo estudiado esto antes, me resulta más fácil entender su relación, pues forman la base de todo lo que viene después en programación
+
+Tarea Mini-Turtle
+
+Enlaces a los dos repositorios:
+[Mini-Turtle POO](https://github.com/AndrewStudentIU/mini_turtle_oo_task)
+[Mini-Turtle](https://github.com/AndrewStudentIU/mini_turtle_task)
